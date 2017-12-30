@@ -1,0 +1,14 @@
+[Unit]
+Description = Jupyter Notebook
+
+[Service]
+Type=simple
+PIDFile=/var/run/jupyter-notebook.pid
+ExecStart=/opt/jupyter/anaconda3/bin/jupyter notebook
+WorkingDirectory=/opt/jupyter
+User=tomohito
+Group=tomohito
+Restart=always
+
+[Install]
+WantedBy = multi-user.target

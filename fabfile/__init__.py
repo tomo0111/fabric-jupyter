@@ -1,1 +1,2 @@
-import install_anaconda
+import anaconda
+import jupyter
