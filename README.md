@@ -18,30 +18,30 @@ Available commands:
 # Environment
 Install anaconda
 ```
-$ fab cassandra.install_anaconda
+$ fab anaconda.install_anaconda
 ```
 
 Install wget
 ```
-$ fab cassandra.install_wget
+$ fab anaconda.install_wget
 ```
 
 Setup anaconda
 ```
-$ fab cassandra.setup_anaconda
+$ fab anaconda.setup_anaconda
 ```
 
 Setup jupyter
 ```
-$ fab cassandra.setup_jupyter
+$ fab jupyter.setup_jupyter
 ```
 
 Setup System
 ```
-$ fab cassandra.setup_system
+$ fab jupyter.setup_system
 ```
 
 Start jupyter
 ```
-$ fab cassandra.start_service
+$ fab jupyter.start_service
 ```
